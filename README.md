@@ -1,2 +1,2 @@
-# nlp-based-scam-detection
-An Independent Research on Adapting Transformer-Based Social-Engineering Detection Models for Deceptive Messages in Freelance Marketplaces
+# Evidence-Grounded Mitigation of Diagnostic Sycophancy in Large Language Models through Confidence Calibration and Threshold-Based Decision Making
+
