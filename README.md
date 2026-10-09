@@ -22,7 +22,7 @@ When the underlying clinical evidence is held constant, to what extent does a us
 
 The experiment uses the DDXPlus Dataset (English), a synthetic clinical diagnosis dataset containing patient characteristics, clinical evidence, and diagnostic labels.
 
-###**Dataset citation:**
+**Dataset citation:**
 
 Fansi Tchango, Arsene; Goel, Rishab; Wen, Zhi; Martel, Julien; Ghosn, Joumana (2023). DDXPlus Dataset (English). figshare. Dataset. https://doi.org/10.6084/m9.figshare.22687585.v2
 
