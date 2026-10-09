@@ -1,7 +1,5 @@
 # Evidence-Grounded Mitigation of Diagnostic Sycophancy in Large Language Models through Confidence Calibration and Threshold-Based Decision Making
 
-# Evidence-Grounded Mitigation of Diagnostic Sycophancy in Large Language Models through Confidence Calibration and Threshold-Based Decision Making
-
 ## Overview
 
 This project investigates diagnostic sycophancy in large language models (LLMs) during healthcare consultations, focusing on whether a user's confidence in a self-diagnosis influences the model's diagnostic confidence when the underlying clinical evidence remains unchanged.
@@ -22,7 +20,13 @@ When the underlying clinical evidence is held constant, to what extent does a us
 
 ## Dataset
 
-The experiment uses a 30,000-case subset of DDXPlus, a synthetic clinical diagnosis dataset containing patient characteristics, clinical evidence, and diagnostic labels.
+The experiment uses the DDXPlus Dataset (English), a synthetic clinical diagnosis dataset containing patient characteristics, clinical evidence, and diagnostic labels.
+
+###**Dataset citation:**
+
+Fansi Tchango, Arsene; Goel, Rishab; Wen, Zhi; Martel, Julien; Ghosn, Joumana (2023). DDXPlus Dataset (English). figshare. Dataset. https://doi.org/10.6084/m9.figshare.22687585.v2
+
+The experiment uses a 30,000-case subset of DDXPlus. The subset selection procedure and its limitations will be documented as part of the research methodology.
 
 The selected subset includes all 49 diagnostic conditions represented in DDXPlus. The subset was constructed with a cap on the number of cases per condition to improve diagnostic coverage while limiting the dominance of highly represented conditions.
 
